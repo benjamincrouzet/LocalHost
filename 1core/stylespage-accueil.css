@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../1assets/flux-conception-code-binaire_53876-97406.jpg'); /* Chemin vers votre image de fond */
+    background-size: cover; /* Ajuste la taille de l'image pour remplir l'ensemble de la fenêtre */
+    background-position: under; /* Centre l'image horizontalement et verticalement */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image de fond */
+    color: #333; /* Couleur du texte */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Couleur de fond semi-transparente pour améliorer la lisibilité du contenu */
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+

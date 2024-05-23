@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Un exemple de site HTML respectant les bonnes pratiques.">
+    <link rel="stylesheet" href="1core/t.css">
+    <link rel="icon" href="1assets/code.ico">
+    <title>Contact</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="page_accueil.php">Accueil</a></li>
+            <li><a href="about.php">les projets simple à réaliser (pas mes projets dont je suis le plus fier)</a></li>
+            <li><a href="services.php">Les projets bien moins important (ma passion)</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="contact">
+        <h4>Formulaire de Contact</h4>
+        <form action="/submit-form" method="post">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">S'abonner à la newsletter</label><br><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Exemple de Site HTML. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
